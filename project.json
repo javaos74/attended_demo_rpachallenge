@@ -4,6 +4,7 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.FormActivityLibrary": "[1.9.3]",
     "UiPath.Mail.Activities": "[1.12.3]",
     "UiPath.System.Activities": "[21.10.4]",
     "UiPath.UIAutomation.Activities": "[21.10.5]"
@@ -25,8 +26,8 @@
       "*password*"
     ],
     "executionType": "Workflow",
-    "readyForPiP": false,
-    "startsInPiP": false,
+    "readyForPiP": true,
+    "startsInPiP": true,
     "mustRestoreAllDependencies": true
   },
   "designOptions": {
