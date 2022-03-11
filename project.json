@@ -3,11 +3,12 @@
   "description": "PIP로 RPA챌린지 수행",
   "main": "Main.xaml",
   "dependencies": {
+    "Newtonsoft.Json": "[13.0.1]",
     "UiPath.Excel.Activities": "[2.11.4]",
-    "UiPath.FormActivityLibrary": "[1.9.3]",
+    "UiPath.Form.Activities": "[1.9.3]",
+    "UiPath.Mail.Activities": "[1.12.3]",
     "UiPath.System.Activities": "[21.10.4]",
-    "UiPath.UIAutomation.Activities": "[21.10.5]",
-    "UiPathTeam.StatusProgress.Activities": "[1.0.2]"
+    "UiPath.UIAutomation.Activities": "[21.10.5]"
   },
   "webServices": [],
   "entitiesStores": [],
